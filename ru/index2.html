@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Apart.kg</title>
+<link rel="stylesheet" href="style/reset.css" type="text/css" />
+<link rel="stylesheet" href="style/style.css" type="text/css" />
+
+<link href="style/jquery-ui-1.10.1.custom.css" rel="stylesheet">
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui-1.10.1.custom.js"></script>
+    
+       <link type="text/css" rel="stylesheet" href="style/dropdown.css" />
+
+<script type="text/javascript" src="js/dropdown.js"></script>
+    
+    
+    <script>
+  $(function() {
+    $( "#datepicker" ).datepicker({
+      showOn: "button",
+      buttonImage: "images/clend.png",
+      buttonImageOnly: true,
+	   changeMonth: true,
+      changeYear: true
+    });
+  });
+  
+    $(function() {
+    $( "#datepickers" ).datepickers({
+      showOn: "button",
+      buttonImage: "images/clend2.png",
+      buttonImageOnly: true,
+	   changeMonth: true,
+      changeYear: true
+    });
+  });
+  
+
+  </script>
+  
+</script>
+<script type="text/javascript">
+//<![CDATA[
+function ShowHide(){
+$("#slidingDiv").animate({"height": "toggle"}, { duration: 1000 });
+}
+//]]>
+</script>
+
+  
+</head>
+
+
+
+<body>
+  <div id="top">
+    <div class="topPanel"> 
+        <div class="lang">
+        <a href="#" class="user">Личный кабинет</a> Язык:<a href="#" data-dropdown="#dropdown1-1" class="drop1">pусский <img src="images/r.png" alt="" /></a>
+                     
+                          <div id="dropdown1-1" class="dropdown1 dropdown1-tip">
+                        <ul class="dropdown1-menu1 dropdown1-menu">
+                            <li><a href="#1" class="item">english <img src="images/usa.png" alt="" /></a></li>
+                            <li><a href="#2" class="item">кыргызча<img src="images/kg.png" alt="" /></a></li>
+                         </ul> 
+                          </div></div>
+     </div>
+  </div><!--end top-->
+
+  <div id="header">
+        <div class="headerCenter">
+            <div class="logo"><p>База объявлений гостиничнего бизнеса</p></div>
+            <div class="addHotel"><a href="#"><div class="addBtn">Добавить свой отель или квартиру</div></a></div>
+            
+              
+        </div>
+        <div class="headerShadow">
+        
+        </div>
+      
+        
+  </div><!--end header-->
+
+  <div id="conteiner">
+  
+      <div id="topMenu">
+          <div class="way">
+          	    <ul>
+          	        <li><a href="#">Домашняя страница ></a></li> 
+          	        <li><a href="#">Отели</a></li>
+          	    </ul>
+          	</div>
+          	
+          	<div class="rightMenu">
+          	  <ul>
+          	  	<li><a href="#">Контакты</a></li>
+          	  	<li><a href="#">О компании</a></li>
+          	  </ul>
+          	</div>
+          	
+      </div><!--end topMenu-->
+  
+  <div class="searchPanel">
+ 		<div class="topSearch">
+        	<p class="searchTitle">Поиск гостиниц, отелей, и квартир посуточно</p>
+               <form action="#" method="post">
+        			<input name="#" type="text" value="Поиск..." class="mainSchfield" onfocus="if (this.value=='Поиск...') this.value=''" onblur="if (this.value==''){this.value='Поиск...'}"  />
+                    <div id="clear" style="height:20px"></div>
+                   <div class="inWrapp">
+                    	<label for="city">Город</label>
+                    	<select class="selectbox" name="city">
+                    	<option  value="0">Бишкек</option>
+                    	 <option value="1">Чолпон-Ата</option>
+                    	  <option value="2">Каракол</option>
+                    	   <option value="3">Бостери</option>
+                    	</select>
+                    </div>
+                          
+                      <div class="inWrapp">
+                      	 <label for="area">Район</label>
+                          <select class="selectbox" name="area">
+                          <option  value="0">Центр</option>
+                           <option value="1">---------</option>
+                            <option value="2">-------</option>
+                             <option value="3">------</option>
+                          </select>
+                      </div>     
+                           
+                       <div class="inWrapp">
+                        <label for="date1">Дата заезда</label>
+       					 <input id="datepicker" name="date1" type="text" class="date" size="10" maxlength="50" />
+     
+                       
+                       </div>
+                       
+                        <div class="inWrapp">
+                 
+                            <label for="date2" style="">Дата отъезда</label>
+                            <input id="datepickers" name="date2" type="text" class="date" size="10" maxlength="50" style="" />
+                       
+                       </div>
+                           
+                        <div class="inWrapp">
+                         <label for="guest">Гостей</label>
+                               <select class="guest" name="gues">
+                              <option  value="0">1-2</option>
+                               <option value="1">3</option>
+                                <option value="2">4</option>
+                                 <option value="3">5</option>
+                                 <option value="3">6</option>
+                                 <option value="3">более</option>
+                              </select>
+        
+        
+                        </div>   
+                          
+                         
+                         <div class="inWrapp">
+                         <label for="room" style="">Комнаты</label>
+                             <select class="room" name="room">
+                            <option  value="0">1-2</option>
+                             <option value="1">2-3</option>
+                              <option value="2">3-4</option>
+                               <option value="3">5+</option>
+                            </select>
+                         </div> 
+                           
+                       
+                          	 <div class="chekField"><input class="checkBox" name="hotel" type="checkbox" value="0"/>Отели
+                          	 	<input class="checkBox" name="kv" type="checkbox" value="1" />Квартира посуточно</div>
+                            
+                          
+                           <input class="searchBtn" name="" type="submit" value="Найти" />
+        	  		</form>
+        </div><!--end topSearcg-->
+  			
+  		
+  		
+  
+  </div><!--end searchPanel-->
+  
+  	<div id="slidingDiv"><img src="images/mainMap.png" alt="" /></div>
+        
+        <div class="button" id="slidingDiv1" onclick="ShowHide(); return false;"><p></p></div>
+        
+            <div class="shadow"></div>
+            	
+            
+  		
+  			<div class="bottomMenu">
+            	<ul class="menuLvl1">
+            		<li><a href="#" class="activeLink">Бишкек</a></li>
+            		<li><a href="#">Все отели Бишкек</a></li>
+            		<li><a href="#">Все квартиры посуточно Бишкек</a></li>
+            	</ul>
+                
+                <div class="val">Валюта: <a href="#" class="activeLink">USD</a> | <a href="#">KGS</a></div>
+                
+            </div>
+  			
+           
+          
+          <div id="mainContent">
+                  <div class="leftColumn-index">
+                  
+                  <p class="mainTitle" style="width:726px;">Самые популярные квартиры в Бишкеке</p>
+                  
+                   <div class="mainItem">
+                   <div class="preview">
+                   <img src="sources/7.png" width="232px" height="" alt="" />
+                   </div>
+                   
+                   <div class="description">
+                   <p style="color:#0f8fea">Элитная 3-х комнатная квартира</p>
+                   <p style="color:#333">пр. Чуй 227пер. Исанова, Бета-Сторес</p>
+                     <img src="sources/icon.png" alt="" />
+                   </div>
+                 
+                  <div class="price" align="center">
+                  <p>2000000<span>сом</span></p>
+                  </div>
+                  </div><!--end mainItem-->
+                  
+                     <div class="mainItem">
+                   <div class="preview">
+                   <img src="sources/8.png" width="232px" height="" alt="" />
+                   </div>
+                   
+                   <div class="description">
+                   <p style="color:#0f8fea">Элитная 3-х комнатная квартира</p>
+                   <p style="color:#333">пр. Чуй 227пер. Исанова, Бета-Сторес</p>
+                     <img src="sources/icon.png" alt="" />
+                   </div>
+                 
+                  <div class="price" align="center">
+                  <p>2000000<span>сом</span></p>
+                  </div>
+                  </div><!--end mainItem-->
+                  
+                     <div class="mainItem">
+                   <div class="preview">
+                   <img src="sources/9.png" width="232px" height="" alt="" />
+                   </div>
+                   
+                   <div class="description">
+                   <p style="color:#0f8fea">Элитная 3-х комнатная квартира</p>
+                   <p style="color:#333">пр. Чуй 227пер. Исанова, Бета-Сторес</p>
+                     <img src="sources/icon.png" alt="" />
+                   </div>
+                 
+                  <div class="price" align="center">
+                  <p>2000000<span>сом</span></p>
+                  </div>
+                  </div><!--end mainItem-->
+                  
+                  
+                      <div class="mainItem">
+                   <div class="preview">
+                   <img src="sources/10.png" width="232px" height="" alt="" />
+                   </div>
+                   
+                   <div class="description">
+                   <p style="color:#0f8fea">Элитная 3-х комнатная квартира</p>
+                   <p style="color:#333">пр. Чуй 227пер. Исанова, Бета-Сторес</p>
+                     <img src="sources/icon.png" alt="" />
+                   </div>
+                 
+                  <div class="price" align="center">
+                  <p>2000000<span>сом</span></p>
+                  </div>
+                  </div><!--end mainItem-->
+                  
+                  
+                      <div class="mainItem">
+                   <div class="preview">
+                   <img src="sources/8.png" width="232px" height="" alt="" />
+                   </div>
+                   
+                   <div class="description">
+                   <p style="color:#0f8fea">Элитная 3-х комнатная квартира</p>
+                   <p style="color:#333">пр. Чуй 227пер. Исанова, Бета-Сторес</p>
+                     <img src="sources/icon.png" alt="" />
+                   </div>
+                 
+                  <div class="price" align="center">
+                  <p>2000000<span>сом</span></p>
+                  </div>
+                  </div><!--end mainItem-->
+                  
+                  
+                      <div class="mainItem">
+                      <div class="discount">
+                      <p>Скидка<span>20%</span></p>
+                      </div>
+                      
+                      <div class="specialOffer"><p>Спецпредложение!</p></div>
+                      
+                   <div class="preview">
+                   <img src="sources/7.png" width="232px" height="" alt="" />
+                   </div>
+                   
+                   <div class="description">
+                   <p style="color:#0f8fea">Элитная 3-х комнатная квартира</p>
+                   <p style="color:#333">пр. Чуй 227пер. Исанова, Бета-Сторес</p>
+                     <img src="sources/icon.png" alt="" />
+                   </div>
+                 
+                  <div class="price" align="center">
+                  <p>2000000<span>сом</span></p>
+                  </div>
+                  </div><!--end mainItem-->
+                  
+                  
+                   <div class="mainItem">
+                   <div class="preview">
+                   <img src="sources/8.png" width="232px" height="" alt="" />
+                   </div>
+                   
+                   <div class="description">
+                   <p style="color:#0f8fea">Элитная 3-х комнатная квартира</p>
+                   <p style="color:#333">пр. Чуй 227пер. Исанова, Бета-Сторес</p>
+                     <img src="sources/icon.png" alt="" />
+                   </div>
+                 
+                  <div class="price" align="center">
+                  <p>2000000<span>сом</span></p>
+                  </div>
+                  </div><!--end mainItem-->
+                  
+                   <div class="mainItem">
+                   <div class="preview">
+                   <img src="sources/8.png" width="232px" height="" alt="" />
+                   </div>
+                   
+                   <div class="description">
+                   <p style="color:#0f8fea">Элитная 3-х комнатная квартира</p>
+                   <p style="color:#333">пр. Чуй 227пер. Исанова, Бета-Сторес</p>
+                     <img src="sources/icon.png" alt="" />
+                   </div>
+                 
+                  <div class="price" align="center">
+                  <p>2000000<span>сом</span></p>
+                  </div>
+                  </div><!--end mainItem-->
+                  
+                   <div class="mainItem">
+                   <div class="preview">
+                   <img src="sources/8.png" width="232px" height="" alt="" />
+                   </div>
+                   
+                   <div class="description">
+                   <p style="color:#0f8fea">Элитная 3-х комнатная квартира</p>
+                   <p style="color:#333">пр. Чуй 227пер. Исанова, Бета-Сторес</p>
+                     <img src="sources/icon.png" alt="" />
+                   </div>
+                 
+                  <div class="price" align="center">
+                  <p>2000000<span>сом</span></p>
+                  </div>
+                  </div><!--end mainItem-->
+                  
+                  </div><!--end leftColumn-->
+                  
+                  
+                  
+                  
+                  <div class="rightColumn">
+                  <p class="mainTitle">Спецпредложения</p>
+                  
+                 <div class="sbItem">
+                 <div class="sbPreview">
+                 <img src="sources/12.png" alt="" />
+                 </div>
+                 <div class="sbShadow"></div>
+                 
+                 <div class="sbDesc">
+                 <p style="color:#0f8fea">2-х комнатная квартира </p>
+                 <p style="color:#333">ул. Панфилова 136Боконбаева – Панфилова</p>
+                 <span>
+                 Совремеtнная уютная квартира в элитном жилом комплексе. Квартира расположена на 16 этаже, панорамный вид города и гор. В апартаментах удобная мягкая мебель
+                 </span>
+                 </div>
+                 
+                 <div class="sbBottom">
+                 
+                 <div class="sbDiscount"><p>2500</p><span class="s">сом</span></div>
+                 
+                 <div class="sbPrice">
+                 <p>1800</p><span class="s">сом</span>
+                 </div>
+                 
+                 </div>
+                 </div><!--end sbItem-->
+                 
+                 
+                 
+                 
+                   <div class="sbItem">
+                 <div class="sbPreview">
+                 <img src="sources/13.png" alt="" />
+                 </div>
+                 <div class="sbShadow"></div>
+                 
+                 <div class="sbDesc">
+                 <p style="color:#0f8fea">2-х комнатная квартира </p>
+                 <p style="color:#333">ул. Панфилова 136Боконбаева – Панфилова</p>
+                 <span>
+                 Совремеtнная уютная квартира в элитном жилом комплексе. Квартира расположена на 16 этаже, панорамный вид города и гор. В апартаментах удобная мягкая мебель
+                 </span>
+                 </div>
+                 
+                 <div class="sbBottom">
+                 
+                 <div class="sbDiscount"><p>2500</p><span class="s">сом</span></div>
+                 
+                 <div class="sbPrice">
+                 <p>1800</p><span class="s">сом</span>
+                 </div>
+                 
+                 </div>
+                 </div><!--end sbItem-->
+                 
+                  
+                  </div><!--end rightColumn-->
+          </div>  <!--end mainContent-->
+       
+  
+  
+  </div><!--end conteiner-->
+
+<div id="clear"></div>
+<div id="footer">
+        <div class="footerMenu" align="center">
+                <a href="#" class="footAactiveLink">item1</a> |
+                <a href="#">Menu item1</a> |
+                <a href="#">Menu item2</a> |
+                <a href="#">Menu item3</a> |
+                <a href="#">Menu item4</a> |
+                <a href="#">Menu item5</a> |
+                <a href="#">Menu item6</a> |
+                <a href="#">Menu item7</a> |
+                
+                <a href="#">Menu item8</a>
+        
+        <div class="copy">©2013 Company Name</div>
+        </div>
+</div><!--end footer-->
+
+</body>
+</html>
+
+

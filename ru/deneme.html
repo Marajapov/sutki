@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Apart.kg</title>
+<link rel="stylesheet" href="style/reset.css" type="text/css" />
+<link rel="stylesheet" href="style/style.css" type="text/css" />
+
+<link href="style/jquery-ui-1.10.1.custom.css" rel="stylesheet">
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui-1.10.1.custom.js"></script>
+    
+<link type="text/css" rel="stylesheet" href="style/dropdown.css" />
+<script type="text/javascript" src="js/dropdown.js"></script>
+  
+ 
+    <script>
+  $(function() {
+    $( "#datepicker" ).datepicker({
+      showOn: "button",
+      buttonImage: "images/clend.png",
+      buttonImageOnly: true,
+	   changeMonth: true,
+      changeYear: true
+    });
+  });
+  
+    $(function() {
+    $( "#datepickers" ).datepickers({
+      showOn: "button",
+      buttonImage: "images/clend2.png",
+      buttonImageOnly: true,
+	   changeMonth: true,
+      changeYear: true
+    });
+  });
+  
+
+  </script>
+  
+</script>
+<script type="text/javascript">
+//<![CDATA[
+function ShowHide(){
+$("#slidingDiv").animate({"height": "toggle"}, { duration: 1000 });
+}
+//]]>
+
+
+
+
+</script>
+
+
+    	
+		
+		
+		
+  
+</head>
+
+
+
+<body>
+<img src="images/mainMap.png" alt="" usemap="#Map" border="0" />
+<map name="Map" id="Map">
+  <area shape="rect" coords="392,19,510,54" href="search.php?mapcity=bishkek" alt="Бишкек" />
+  <area shape="rect" coords="549,27,664,52" href="search.php?mapcity=cholpon-ata" alt="Чолпон-Ата" />
+  <area shape="rect" coords="686,44,782,69" href="search.php?mapcity=karakol" alt="Каракол" />
+</map>
+
+</body>
+</html>
+
+

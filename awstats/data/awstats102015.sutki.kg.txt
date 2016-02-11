@@ -1,0 +1,462 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201510 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2589                
+POS_VISITOR 9928                
+POS_DAY 14345               
+POS_DOMAIN 3399                
+POS_LOGIN 3651                
+POS_ROBOT 3806                
+POS_WORMS 3972                
+POS_EMAILSENDER 4103                
+POS_EMAILRECEIVER 4246                
+POS_SESSION 14815               
+POS_SIDER 15023               
+POS_FILETYPES 4381                
+POS_OS 4591                
+POS_BROWSER 4702                
+POS_SCREENSIZE 4892                
+POS_UNKNOWNREFERER 4966                
+POS_UNKNOWNREFERERBROWSER 5444                
+POS_ORIGIN 5604                
+POS_SEREFERRALS 5748                
+POS_PAGEREFS 5916                
+POS_SEARCHWORDS 6208                
+POS_KEYWORDS 7306                
+POS_MISC 2253                
+POS_ERRORS 8292                
+POS_CLUSTER 3507                
+POS_SIDER_404 8435                
+POS_PLUGIN_geoip_city_maxmind 9426                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151015175635 1379 352225 0
+FirstTime 20151001004744
+LastTime 20151015175630
+LastUpdate 20151016020228 1379 0 743 636 0
+TotalVisits 144                 
+TotalUnique 100                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 101                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 12 97 2503713 17 19 9968
+1 10 276 5565020 4 7 11522
+2 1 158 1337225 4 4 686
+3 4 178 2550495 16 16 2744
+4 2 2 214040 8 8 1372
+5 1 1 107020 4 4 686
+6 2 2 214040 8 8 1372
+7 1 1 107020 4 4 686
+8 6 236 3867650 8 9 4984
+9 16 518 8293457 13 17 16506
+10 12 551 6962655 22 26 17893
+11 1 175 2229435 4 4 686
+12 30 656 9594028 26 36 40251
+13 26 773 11156717 19 22 13810
+14 58 1353 19937730 48 74 179786
+15 83 804 21576550 35 106 232530
+16 158 1061 30645926 79 174 367291
+17 107 4510 58495111 62 127 257772
+18 49 1601 24097424 48 65 74393
+19 38 825 23436356 30 53 87897
+20 10 1147 6620288 15 18 13352
+21 28 571 10067459 23 41 68451
+22 24 645 9887755 15 33 66864
+23 13 916 12723030 6 14 170537
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+kg 679 16933 268973041
+ru 13 124 3217103
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+mj12bot 2 144706 20151010232326 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+php 507 23903056 0 0
+css 464 4344437 0 0
+png 4626 58928170 0 0
+html 185 16677416 0 0
+js 370 32013529 0 0
+jpg 10892 136170976 0 0
+jpeg 9 95580 0 0
+gif 4 56980 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 1486
+winunknown 563
+winxp 6663
+winnt 6874
+Unknown 160
+linux 1311
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 11
+msie8.0 177
+mozilla 6
+firefox40.0 178
+msie7.0 670
+opera 303
+msie10.0 563
+firefox41.0 116
+firefox38.0 5
+Unknown 40
+safari 14989
+netscape 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(Android_4.4;_Mobile;_rv:41.0)_Gecko/41.0_Firefox/41.0 20151004083231
+Mozilla 20151015150505
+<a_href=http://tsite.net.ru>TOP.NET.RU_BOT_v2.0_Top_script</a> 20151015043317
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/6.1.25378/28.2555;_U;_ru)_Presto/2.8.119_Version/11.10 20151015015243
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/7.0.31610/28.2725;_U;_ru)_Presto/2.8.119_Version/11.10 20151015015244
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+<a_href=http://tsite.net.ru>TOP.NET.RU_BOT_v2.0_Top_script</a> 20151015043317
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 155 825
+From1 0 0
+From2 17 17
+From3 36 36
+From4 484 16179
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 1 1
+yandex 16 16
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://go.mail.ru/search 30 30
+http://diesel.elcat.kg/lofiversion/index.php 3 3
+https://www.facebook.com 2 2
+https://yandex.com/touchsearch 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 7
+1-%d0%ba%d0%b2+%d1%81%d0%bd%d1%8f%d1%82%d1%8c+%d0%bf%d1%80%d1%81%d1%83%d1%82%d0%be%d1%87%d0%bd%d0%be+%d0%b2+%d0%91%d0%b8%d1%88%d0%ba%d0%b5%d0%ba%d0%b5 2
+%d0%bf%d0%b0%d0%bd%d1%81%d0%b8%d0%be%d0%bd%d0%b0%d1%82+%d0%92%d0%b8%d1%82%d1%8f%d0%b7%d1%8c+%d0%bd%d0%b0+%d0%b8%d1%81%d1%81%d1%8b%d0%ba+%d0%ba%d1%83%d0%bb%d0%b5+%d0%ba%d1%8b%d1%80%d0%b3%d1%8b%d0%b7%d1%81%d1%82%d0%b0%d0%bd+%d1%84%d0%be%d1%82%d0%be 2
+%d0%bf%d1%80%d0%b0%d1%81%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d0%b2+%d0%b1%d0%b8%d1%88%d0%ba%d0%b5%d0%ba%d0%b5 1
+%d0%ba%d1%83%d0%bf%d0%bb%d1%8e+2+%d0%ba%d0%b2+%d0%b2+%d1%86%d0%b5%d0%bd%d1%82%d1%80%d0%b5+%d0%b1%d0%b8%d1%88%d0%ba%d0%b5%d0%ba+106+%d1%81%d0%b5%d1%80%d0%b8%d0%b8 1
+%d0%b3%d0%be%d1%80%d0%bd%d1%8b%d0%b9+%d0%be%d1%82%d0%b4%d1%8b%d1%85+%d0%b2+%d0%b1%d0%b8%d1%88%d0%ba%d0%b5%d0%ba%d0%b5 1
+iwu+kvartiru+v+bishkeke 1
+%d0%ba%d0%b8%d0%bd%d0%b2%d1%81%d0%ba%d0%b0%d1%8f+%2f%d1%82%d1%83%d1%80%d1%83%d1%81%d0%b1%d0%b5%d0%ba%d0%be%d0%b2%d0%b0 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 29
+%d0%b2 5
+%d0%bf%d0%b0%d0%bd%d1%81%d0%b8%d0%be%d0%bd%d0%b0%d1%82 2
+%d0%ba%d1%83%d0%bb%d0%b5 2
+%d0%bf%d1%80%d1%81%d1%83%d1%82%d0%be%d1%87%d0%bd%d0%be 2
+%d1%84%d0%be%d1%82%d0%be 2
+%d0%92%d0%b8%d1%82%d1%8f%d0%b7%d1%8c 2
+%d0%91%d0%b8%d1%88%d0%ba%d0%b5%d0%ba%d0%b5 2
+%d0%bd%d0%b0 2
+%d0%b8%d1%81%d1%81%d1%8b%d0%ba 2
+1-%d0%ba%d0%b2 2
+%d0%ba%d0%b8%d0%bd%d0%b2%d1%81%d0%ba%d0%b0%d1%8f 1
+%d1%86%d0%b5%d0%bd%d1%82%d1%80%d0%b5 1
+%d0%bf%d1%80%d0%b0%d1%81%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8 1
+bishkeke 1
+iwu 1
+2 1
+%d0%b3%d0%be%d1%80%d0%bd%d1%8b%d0%b9 1
+106 1
+%d1%81%d0%b5%d1%80%d0%b8%d0%b8 1
+%d0%ba%d1%83%d0%bf%d0%bb%d1%8e 1
+%2f%d1%82%d1%83%d1%80%d1%83%d1%81%d0%b1%d0%b5%d0%ba%d0%be%d0%b2%d0%b0 1
+v 1
+%d0%be%d1%82%d0%b4%d1%8b%d1%85 1
+%d0%ba%d1%8b%d1%80%d0%b3%d1%8b%d0%b7%d1%81%d1%82%d0%b0%d0%bd 2
+kvartiru 1
+%d0%ba%d0%b2 1
+%d1%81%d0%bd%d1%8f%d1%82%d1%8c 2
+%d0%b1%d0%b8%d1%88%d0%ba%d0%b5%d0%ba 1
+%d0%b1%d0%b8%d1%88%d0%ba%d0%b5%d0%ba%d0%b5 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 166 2811
+206 35 173679
+500 1 3506
+404 343 1238916
+301 342 78421
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 14
+/apple-touch-icon-precomposed.png 4 -
+/images/user/usermail.png 7 http://www.sutki.kg/styles/login.css
+/apple-touch-icon.png 4 -
+/flashtour/18_5b89i2ky_Project25.swf 1 http://www.sutki.kg/ru/detail.php
+/ru/%D0%91%D0%B8%D1%88%D0%BA%D0%B5%D0%BA/1/0/c 4 http://www.sutki.kg/ru/search.php
+/images/user/userlogin.png 30 http://www.sutki.kg/styles/login.css
+/ru/style/images/bx_loader.gif 63 http://www.sutki.kg/ru/style/jquery.bxslider.css
+/images/user/7AF2Qzt.png 64 http://www.sutki.kg/styles/login.css
+/images/user/userpass.png 31 http://www.sutki.kg/styles/login.css
+/ru/img/calendar.gif 4 http://www.sutki.kg/ru/style/jquery-ui-1.10.1.custom.css
+/images/user/userphone.png 7 http://www.sutki.kg/styles/login.css
+/ru/%D0%9E%D1%88/3/c 3 http://www.sutki.kg/ru/search.php
+/style/jquery-ui-1.10.1.custom.css 8 http://www.sutki.kg/ru/index.php
+/styles/reset.css 113 http://www.sutki.kg/control/hotel_add.php
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 7
+unknown 0 13416 0 0
+kg_bishkek_01 0 3151 0 0
+kg_naryn_03 0 309 0 0
+ru_moscow_48 0 115 0 0
+kg_karakol_07 0 59 0 0
+ru_bataysk_61 0 5 0 0
+ru_krasnoyarsk_39 0 2 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 101
+89.237.218.206 97 248 16741113 20151015175117 20151015161518 /ru/chastye-voprosy.php
+89.237.237.170 58 1327 15006583 20151008172728
+91.192.67.124 49 378 13142107 20151005162449
+212.42.102.222 40 40 4280800 20151015043317
+89.237.255.150 37 98 1023055 20151004160857
+31.186.51.104 26 647 9211007 20151008140148
+77.95.63.35 25 268 4067418 20151011222445
+89.237.250.80 21 1559 18559644 20151002180329
+89.237.255.132 19 211 2884404 20151007173803
+89.237.234.169 17 292 14095163 20151013191956
+158.181.164.164 1 175 2229435 20151009124743
+158.181.197.96 1 1 40960 20151009124454
+212.97.25.206 1 175 2229435 20151008172205
+194.152.36.128 2 226 2762263 20151011223020
+158.181.138.73 2 57 1223697 20151003151214
+194.152.36.130 4 196 3292603 20151013230719
+212.241.19.219 5 94 1995563 20151005163156
+89.237.197.55 1 20 189148 20151014094146
+212.42.113.185 3 194 2900294 20151010172318
+212.112.120.247 5 244 3355679 20151006131752
+128.69.143.86 1 21 411485 20151015015242
+217.118.81.30 5 5 201620 20151008003947
+212.241.8.99 1 1 144734 20151001172225
+158.181.242.26 5 246 3553334 20151007092046
+158.181.213.12 2 176 2336455 20151007144506
+2.93.102.150 2 2 269627 20151013102915
+158.181.195.17 1 1 49152 20151013190308
+195.114.246.115 3 178 2249062 20151007182243
+158.181.218.57 1 1 107020 20151008171123
+194.152.36.211 2 2 164364 20151006145354
+158.181.187.230 1 11 659658 20151005193058
+31.29.4.94 1 161 2158005 20151012175536
+46.251.216.21 2 67 1167542 20151007203733
+46.251.218.80 1 1 106496 20151008105702
+158.181.164.224 3 57 897977 20151001132955
+158.181.209.174 2 75 1277800 20151001194341
+158.181.219.170 1 1 40960 20151012135401
+31.29.9.38 17 271 5317110 20151011184946
+89.237.229.193 4 230 2898092 20151003204744
+194.152.37.243 2 47 830200 20151001120733
+89.237.250.104 9 184 1745744 20151008152730
+31.192.255.218 12 261 4375030 20151011195828
+89.237.218.121 1 175 2229435 20151014180636
+46.251.216.25 2 178 2268537 20151002015802
+128.69.143.137 1 30 644940 20151015015242
+31.186.51.135 1 12 749219 20151012183836
+194.152.36.223 7 277 5346095 20151011004133
+158.181.188.13 2 2 410178 20151001150636
+217.29.24.128 1 175 2229435 20151006083345
+31.192.252.27 7 247 3206567 20151006142220
+158.181.191.5 2 2 410178 20151005223427
+158.181.161.254 1 175 2229435 20151004130706
+79.104.198.84 1 1 107020 20151014093512
+212.112.125.146 5 229 2903776 20151005121618
+212.42.125.245 1 847 2233594 20151002202712
+77.95.56.38 2 2 49321 20151001130801
+89.237.241.108 6 6 612428 20151006132749
+31.186.51.175 2 233 3402734 20151014185857
+217.29.24.27 1 175 2229435 20151008223149
+31.186.51.119 6 248 3926757 20151008094353
+91.192.66.51 2 186 2354770 20151002174513
+95.87.79.106 8 719 9323407 20151013232523
+79.104.198.46 1 1 107020 20151014010121
+37.218.130.18 3 59 1424175 20151004083142
+31.186.51.16 1 175 2229435 20151015175630 20151015175630 /ru/
+89.237.220.184 5 196 1979682 20151015101148
+195.114.255.38 5 242 3201556 20151008180539
+158.181.133.56 13 252 5483636 20151012164542
+158.181.179.237 1 175 2229435 20151007185652
+158.181.234.238 2 2 98304 20151005145047
+89.237.243.37 9 18 375607 20151005125749
+89.237.206.201 1 175 2229435 20151014102901
+212.2.228.23 1 175 2229435 20151013111129
+195.114.253.167 1 1 24576 20151006154801
+31.186.51.91 3 192 2715487 20151002144924
+158.181.226.88 1 1 65536 20151011191344
+212.112.96.59 1 175 2229435 20151008104944
+158.181.237.139 1 1 57344 20151015150505
+31.186.51.194 9 264 4681844 20151009220241
+89.237.196.21 1 10 11139 20151008181340
+31.29.18.146 6 209 3833967 20151009212607
+89.237.216.250 12 12 1224856 20151005174233
+31.186.51.208 1 141 1987345 20151010012403
+158.181.252.246 0 3 26845 
+158.181.234.124 1 1 40960 20151013130732
+158.181.194.231 1 1 40960 20151002155931
+37.218.182.0 4 563 8674735 20151008173612
+194.152.36.158 3 61 1268878 20151008010432
+89.237.238.99 3 3 253833 20151009220448
+92.245.101.118 12 203 3346057 20151011175923
+89.178.73.209 2 64 1475391 20151006210342
+194.152.37.168 16 243 6461523 20151002155912
+212.112.105.103 1 175 2229435 20151001121319
+194.152.36.140 4 184 2856149 20151003194845
+37.218.186.144 1 1 144734 20151008142026
+212.97.17.7 1 175 2229435 20151007034016
+212.2.245.27 1 175 2229435 20151012151650
+158.181.199.99 1 1 40960 20151007102900
+158.181.188.227 4 352 4306943 20151012164541
+109.201.174.92 4 4 820356 20151014094105
+194.152.36.163 4 4 265167 20151003123018
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20151001 15 361 6053685 9
+20151002 60 3506 39083010 10
+20151003 22 483 8099265 12
+20151004 44 335 4997725 5
+20151005 88 749 21131109 12
+20151006 26 915 13404895 9
+20151007 35 1230 16797647 10
+20151008 117 3711 49969224 17
+20151009 25 657 11575139 8
+20151010 8 339 5511857 5
+20151011 73 1319 21718309 10
+20151012 23 781 13059823 9
+20151013 37 1446 30687686 9
+20151014 11 552 7822731 10
+20151015 108 673 22278039 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 12
+2mn-5mn 9
+30s-2mn 12
+15mn-30mn 5
+0s-30s 98
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/ru/ 160 16527612 104 76
+/ru/search.php 113 10619166 2 13
+/ru/detail.php 102 6574687 26 13
+/ru/captcha.php 67 16268 0 21
+/control/index.php 63 746483 5 4
+/control/login.php 41 101330 0 2
+/control/flat_edit.php 33 2103781 2 3
+/control/ 25 149804 1 1
+/ru/index.php 23 2466052 3 4
+/control/flatphotos.php 10 86257 0 0
+/control/ajax_getRegions.php 3 1161 0 1
+/ru/chastye-voprosy.php 3 123738 0 0
+/ru/contact.php 5 110870 0 0
+/control/changepassword.php 4 10995 0 0
+/ru/about.php 4 134296 0 0
+/control/profile.php 10 32934 0 0
+/ru/detailroom.php 7 279630 1 2
+/control/register.php 2 5326 0 0
+/control/hotel_add.php 2 80180 0 1
+/control/flat_add.php 6 409864 0 1
+/control/ajax_checkSubdomain.php 9 38 0 0
+END_SIDER

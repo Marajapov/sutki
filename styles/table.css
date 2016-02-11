@@ -1,0 +1,49 @@
+table {
+  border-collapse: collapse;
+}
+table td, table th {
+  border: 1px solid black;
+  vertical-align:top;
+  padding:5px;
+}
+table tr:first-child th {
+  border-top: 0;
+  height:25px;
+  text-align:center;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+
+div.photowrapper{
+	margin-left:10px;  
+    float:left; /* important */  
+    position:relative; /* important(so we can absolutely position the description div */  
+}  
+div.photodescription{  
+    position:absolute; /* absolute position (so we can position it where we want)*/  
+    /*bottombottom:-100px; /* position will be on bottom */  
+    top:0px;
+	left:0px;  
+    width:100%;  
+    /* styling bellow */  
+    background-color:#CCC;  
+    font-family: 'tahoma';  
+    font-size:12px;  
+    color:#000;  
+    opacity:0.6; /* transparency */  
+    filter:alpha(opacity=60); /* IE transparency */  
+} 
+ 
+p.photodescription_content{  
+    padding:2px;  
+    margin:0px;  
+}  

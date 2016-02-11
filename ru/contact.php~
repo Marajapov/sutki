@@ -1,0 +1,42 @@
+<? 
+	$lang = 'ru';
+?>
+<? include '../mainparts/header.php';?>
+<? include '../mainparts/subheader.php';?>
+<?	$t = $db->select_one("ttext","text_id='3'"); echo "<div class='contactus'>" . nl2br($t['msg']) . "</div>";?>
+<img src="images/contactus.jpg" alt="" />
+  </div><!--end conteiner-->
+
+<div id="clear"></div>
+<div id="footer" style="bottom:0; margin-top:40px;">
+        <div class="footerMenu" align="center">
+                <!--<a href="#" class="footAactiveLink">item1</a> |
+                <a href="#">Menu item1</a> |
+                <a href="#">Menu item2</a> |
+                <a href="#">Menu item3</a> |
+                <a href="#">Menu item4</a> |
+                <a href="#">Menu item5</a> |
+                <a href="#">Menu item6</a> |
+                <a href="#">Menu item7</a> |
+                
+                <a href="#">Menu item8</a>-->
+
+<!-- Bottom Ad -->
+<br />
+<div align="center">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-2966704049503755"
+     data-ad-slot="1584666429"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<!-- end Bottom Ad -->	
+
+        <div class="copy">©2016 sutki.KG</div>
+        </div>
+</div><!--end footer-->
+</body>
+</html>

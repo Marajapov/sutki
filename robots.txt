@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /en
+Disallow: /admin
+Disallow: /control
+Disallow: /cms
+Disallow: /blog
+Disallow: /images
+Sitemap: http://www.sutki.kg/sitemap.php

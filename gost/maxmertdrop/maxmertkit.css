@@ -1,0 +1,22 @@
+@-webkit-keyframes stripes-animation{from{background-position:40px 0}to{background-position:0 0}}
+@-moz-keyframes stripes-animation{from{background-position:40px 0}to{background-position:0 0}}
+@-ms-keyframes stripes-animation{from{background-position:40px 0}to{background-position:0 0}}
+@-o-keyframes stripes-animation{from{background-position:0 0}to{background-position:40px 0}}
+@keyframes stripes-animation{from{background-position:40px 0}to{background-position:0 0}}
+
+
+abbr{border-bottom:1px dotted}
+abbr[title]{cursor:help}
+blockquote{padding:0 0 0 10px;border-left:4px solid #eee;margin:0 0 10px;font-weight:300}
+blockquote small{color:#999}
+blockquote small:before{content:'\2014 \00A0'}
+blockquote.mx-pull-right{float:right;padding:0 10px 0 0;border-left:none;border-right:4px solid #eee;text-align:right}
+address{font-style:normal;margin:0 0 15px 0}
+ul,ol{margin:0 0 0 20px;padding:0;line-height:21px}
+ul ul,ul ol,ol ul,ol ol{margin-bottom:0}
+dl{margin:0 0 15px 0;line-height:21px}
+dl dt{font-weight:bold}
+dl dd{margin-left:15px}
+dl._horizontal_ dt{width:120px;float:left;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;text-align:right}
+dl._horizontal_ dd{margin-left:130px}
+.-container{width:120px;margin:0 auto}

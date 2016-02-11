@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>http://www.gostinisa.kg/</loc>
+</url>
+<url>
+  <loc>http://www.gostinisa.kg/index.php?room=1&flat_type=0</loc>
+</url>
+<url>
+  <loc>http://www.gostinisa.kg/index.php?room=2&flat_type=0</loc>
+</url>
+<url>
+  <loc>http://www.gostinisa.kg/vladelcam.php</loc>
+</url>
+<url>
+  <loc>http://www.gostinisa.kg/index.php</loc>
+</url>
+<url>
+  <loc>http://www.gostinisa.kg/index.php?special=1</loc>
+</url>
+<url>
+  <loc>http://www.gostinisa.kg/contacts.php</loc>
+</url>
+<url>
+  <loc>http://www.gostinisa.kg/dobavit.php</loc>
+</url>
+<url>
+  <loc>http://www.gostinisa.kg/index.php?flat_type=1</loc>
+</url>
+<url>
+  <loc>http://www.gostinisa.kg/index.php?flat_type=2</loc>
+</url>
+<url>
+  <loc>http://www.gostinisa.kg/detail.php?id=41</loc>
+</url>
+<url>
+  <loc>http://www.gostinisa.kg/detail.php?id=66</loc>
+</url>
+<url>
+  <loc>http://www.gostinisa.kg/detail.php?id=65</loc>
+</url>
+</urlset>

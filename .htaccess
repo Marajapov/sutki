@@ -1,0 +1,14 @@
+#Options +FollowSymLinks
+    #RewriteEngine on
+ #   rewritecond %{http_host} ^sutki.kg [nc]
+  #  rewriterule ^(.*)$ http://www.google.kg/$1 [r=301,nc]
+   # rewritecond %{http_host} ^ru/([^/]*)/([0-9]+)/([0-9]+)/c [nc]
+    #rewriterule ^(.*)$ http://ru/search.php?searchcity={R:2}&searchregion={R:3}/$1 [r=301,nc]
+
+
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www.sutki.kg$ [NC]
+RewriteCond %{HTTP_HOST} ^([a-zA-Z0-9]+)\.sutki.kg$ [NC]
+RewriteRule ^.?$ /ru/detail.php?objectlog=%1

@@ -1,0 +1,235 @@
+
+
+
+.curr_pos{
+    font-size:18px;
+    color:#0e3ea2;
+    border-bottom: #0e3ea2 1px dashed;
+    float:left;
+    margin-top:10px;
+    clear: both;
+    display: block !important;
+    cursor: pointer;
+
+}
+.pos_list{
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display:none;
+    margin-top: 44px;
+    position: absolute;
+    z-index: 205;
+    padding: 10px;
+    line-height: 20px;
+	
+
+}
+.pos_list div{
+    cursor: pointer;
+}
+
+.map{
+    width:900px;
+    height:500px;
+   	margin:0 auto;
+}
+.issuk-kul_map{
+    width:900px;
+    height:500px;
+    position: absolute;
+    z-index: 100;
+}
+
+.map img{
+    float: left;
+    position: absolute;
+}
+.map img.over{
+    display: none;
+}
+.one1{
+	z-index: 5;
+	margin:212px 0 0 197px;
+
+	
+}
+
+.two2{
+	z-index: 5;
+	margin:205px 0 0 229px;
+}
+
+.three3{
+	z-index: 5;
+	margin:205px 0 0 248px;
+}
+
+.four4{
+	z-index: 5;
+	margin:202px 0 0 267px;	
+}
+
+.five5{
+	z-index: 5;
+	margin: 197px 0 0 295px;		
+}
+
+
+
+.six6{
+	z-index: 5;
+	margin:186px 0 0 322px;
+}
+
+.seven7{
+	z-index: 5;
+	margin:172px 0 0 345px;
+}
+
+.eight8{
+	z-index: 5;
+	margin:169px 0 0 374px;	
+}
+
+.nine9{
+	z-index: 5;
+	margin:164px 0 0 442px;	
+}
+
+.ten10{
+	z-index: 5;
+	margin:158px 0 0 470px;
+}
+
+.eleven11{
+	z-index: 5;
+	margin:152px 0 0 495px;
+}
+
+.twelve12{
+	z-index: 5;
+	margin:150px 0 0 538px;	
+}
+
+.thirteen13{
+	z-index: 5;
+	margin:116px 0 0 650px;	
+	
+}
+
+.fourteen14{
+	z-index: 5;
+	margin:106px 0 0 684px;	
+	
+}
+
+.fiveteen15{
+	z-index: 5;
+	margin:328px 0 0 591px;
+	
+}
+.sixteen16{
+	z-index: 5;
+	margin:341px 0 0 566px;
+	
+}
+.seventeen17{
+	z-index: 5;
+	margin:362px 0 0 548px;
+	
+}
+.eighteen18{
+	z-index: 5;
+	margin:383px 0 0 522px;
+	
+}
+.nineteen19{
+	z-index: 5;
+	margin:393px 0 0 482px;
+	
+}
+
+.twenty20{
+	z-index: 5;
+	margin:389px 0 0 458px;
+	
+}
+.twenty-one21{
+	z-index: 5;
+	margin:382px 0 0 408px;
+	
+}
+.twenty-two22{
+	z-index: 5;
+	margin:340px 0 0 306px;
+	
+}
+.twenty-three23{
+	z-index: 5;
+	margin:319px 0 0 272px;
+	
+}
+.twenty-four24{
+	z-index: 5;
+	margin:303px 0 0 240px;
+	
+}
+.twenty-five25{
+	z-index: 5;
+	margin:234px 0 0 163px;
+	
+}
+.twenty-six26{
+	z-index: 5;
+	margin:168px 0 0 406px;twenty-six26
+	
+}
+.twenty-seven27{
+	z-index: 5;
+	margin:118px 0 0 720px;
+	
+}
+.twenty-eight28{
+	z-index: 5;
+	margin:213px 0 0 693px;
+	
+}
+.twenty-nine29{
+	z-index: 5;
+	margin:306px 0 0 611px;
+	
+}
+
+.thirty30{
+	z-index: 5;
+	margin:365px 0 0 329px;
+	
+}
+
+
+
+#map_tooltip{
+    display: none;
+    background: url('../images/tooltip.png') no-repeat;
+    position:absolute;
+    width:122px;
+	color:#FFF;
+    height:40px;
+    z-index: 206;
+    padding-top: 5px;
+	margin-top: 25px;
+    margin-left: 6px;
+}
+#map_tooltip div{
+    font-size:12px;
+    color:#FFF;
+    margin-bottom:3px;
+}
+#map_tooltip .title{
+    font-weight: bold;
+    font-size: 14px;
+    color:#FFF;
+    text-align: center;
+}

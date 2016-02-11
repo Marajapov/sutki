@@ -1,0 +1,17 @@
+<p class="mainTitle">Спецпредложения</p>
+<? 
+	$specialsql = "special=1 AND city='".$searchcity."'";
+	if ($detailpageFlag) $specialsql .= " AND flat_id <> '".$flat['flat_id']."'"; 
+	$rwFlats = $db->select("flats", $specialsql, "*", "order by flat_id desc");
+	foreach($rwFlats as $flat) include 'singletall.php';
+?>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Bottom Ad -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-2966704049503755"
+     data-ad-slot="1584666429"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>

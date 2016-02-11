@@ -1,0 +1,180 @@
+﻿body, table{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000;
+	margin:0;
+	padding:0;
+	
+}
+
+
+a, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#dvHeader{
+	height:50px;
+	width:100%;
+	background-color:#1A324B;
+}
+#dvMenu{
+	margin-left:20px;
+	margin-top:10px;
+	float:left;	
+}
+#dvLogout{
+	margin-top:15px;
+	margin-right:70px;
+	float:right;
+}
+#dvLogout span{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+#dvFooter
+{
+	height:30px;
+	width:100%;
+	/*background-color:#1A324B;*/
+	 	
+}
+
+#dvContent {
+    padding: 10px;	
+    min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+.clear
+{
+    clear: both;
+}
+
+.dvForm {
+    background: #E7ECF1;
+    border: 1px solid #AAAAAA;
+    display: none;
+    padding: 0;
+    width:1000px;
+}
+#dvFormHeader
+{
+    padding: 5px; 
+    background: #ccc;
+    margin: 0px 0px 5px 0px;
+    font-weight:bold;
+}
+#dvFormFooter
+{
+    margin-left:100px; 
+    padding:10px;
+}
+
+.tdright
+{
+    width:100px;
+    text-align:right;
+}
+
+/*_________List Data___________________________________________________*/
+#list_title{
+	background: #1A324B;
+	color: white;
+	font: 11px tahoma;
+	font-weight:bold;
+	border-bottom: 1px solid #fff;
+    line-height: 25px;
+}
+#list_title td { padding: 3}
+
+/*__/*_____Pager____________________*/
+.pager{ font-size:12px; padding-top: 5px;}
+.pager a, .pager a:visited , .pager .spacer{padding: 1px 5px; border: solid 1px #9aafe5; background: #fff; text-decoration: none; display:inline-block; margin:0 1px; color: #2e6ab1;}
+.pager .spacer {border: none;}
+.pager .active{font-size:10px; padding: 1px 5px; border: solid 1px #9aafe5; background-color: #2e6ab1;color: #FFF; display:inline-block; margin:0 1px; border-color: #2b66a5; font-weight: bold; text-decoration:none;}
+.pager a:hover {color: #fff;background: #575757; border-color: #036; text-decoration: none;}
+/*_________END Pager_________________________________________________________________________________________*/
+
+
+.ncategory{
+    background: #E7ECF1;
+    padding: 0 5 0 5;
+    border-bottom: 1px solid #fff;
+        border-left: 1px solid #fff;
+}
+.ntitle{
+    width: 200;
+    padding: 0 5 0 5;
+    background: #E7ECF1;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.nvarchar{
+    padding: 0 5 0 5;
+    background: #E7ECF1;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+
+.settingstools{
+    padding: 5;
+    background: #E7ECF1;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    text-align: center;
+    width: 50;
+}
+
+
+.txtSearchbar{
+ font-size:11px;
+ 
+}
+
+.txtSearchbar a {    
+    border-right: #ddd 1px solid; 
+    padding-right: 1px; border-top: #ddd 1px solid; 
+    display: block; 
+    padding-left: 1px; 
+    padding-bottom: 2px; 
+    border-left: #ddd 1px solid; 
+    width: 100px; 
+    color: #000000; 
+    padding-top: 2px; 
+    border-bottom: #ddd 1px solid; 
+    text-decoration: none; 
+    font-weight:bold;
+}
+.txtSearchbar a:hover {
+     border-right: #ddd 1px solid; 
+    padding-right: 1px; border-top: #ddd 1px solid; 
+    display: block; 
+    padding-left: 1px; 
+    padding-bottom: 2px; 
+    border-left: #ddd 1px solid; 
+    width: 100px; 
+    color: #c64934; 
+    padding-top: 2px; 
+    border-bottom: #ddd 1px solid; 
+    text-decoration: none; 
+    font-weight:bold;
+   
+}
+.txtSearchbar a:active {
+    border-right: #ddd 1px solid; 
+    padding-right: 1px; border-top: #ddd 1px solid; 
+    display: block; 
+    padding-left: 1px; 
+    padding-bottom: 2px; 
+    border-left: #ddd 1px solid; 
+    width: 100px; 
+    color: #c64934; 
+    padding-top: 2px; 
+    border-bottom: #ddd 1px solid; 
+    text-decoration: none; 
+    font-weight:bold;
+}
